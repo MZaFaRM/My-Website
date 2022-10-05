@@ -225,8 +225,9 @@ footer {
 .about {
 	list-style-type: none;
 	line-height: 100px;
-  font-size: max(40px, 8vw);
-  text-align:center;
+  	font-size: max(40px, 8vw);
+  	text-align:center;
+	padding-left:0
 }
 
 
