@@ -149,9 +149,9 @@ footer {
   }
 
   .glitch {
-	font-size: 5rem;
+	font-size: max(40px, 6vw);
   }
-  
+
   .container:hover .glitch {
 	position: relative;
 	text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
@@ -174,8 +174,8 @@ footer {
 	top: 0;
 	left: 0;
   }
-  
-  
+
+
   .glitch span:first-child {
 	animation: glitch 500ms infinite;
 	clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
@@ -183,14 +183,14 @@ footer {
 	display: none;
 
   }
-  
+
   .glitch span:last-child {
 	animation: glitch 375ms infinite;
 	clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
 	transform: translate(0.04em, 0.03em);
 	display: none;
   }
-  
+
   @keyframes glitch {
 	0% {
 	  text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
@@ -225,21 +225,19 @@ footer {
 .about {
 	list-style-type: none;
 	line-height: 100px;
-  font-size: xx-large;
-  word-break: loose;
+  font-size: max(40px, 8vw);
+  text-align:center;
 }
 
 
-/* About Credits */
+/* About Credits*/
 .Resource-type {
-  font-size:3rem;
-  text-align:center;
+  font-size: max(20px, 3vw);
   color:orange;
 }
 
 .Resource {
   width: 100%;
-  text-align: center;
 }
 
 .link {
